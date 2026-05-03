@@ -13,33 +13,44 @@
         <!-- my css -->
         <link rel="stylesheet" href="style.css" />
 
-        <title>Zenvy</title>
+        <title>Zenvy - Coffee Shop Online</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Zenvy</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
+        <!-- navbar -->
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">About Us</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Benefits</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Blog</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Contact</a></li>
+                </ul>
+
+                <a href="/" class="d-flex align-items-center justify-content-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                    <h4 class="text-uppercase"><strong>ZENVY</strong></h4>
+                </a>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search" />
+                </form>
+            </header>
+        </div>
+
+        <!-- header -->
+        <div class="heroes container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center justify-content-between g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-5">
+                    <img src="img/clifford-VobvKmG-StA-unsplash.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" />
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-4">Enhance Your Coffee Experience With</h1>
+                    <p class="lead mb-4">Boost your productivity and build your mood with a glass of coffee in the morning, 100% natural from garden.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Order Now</button>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
