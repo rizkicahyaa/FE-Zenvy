@@ -22,8 +22,13 @@ body {
 }
 
 .heroes img {
-    width: 500px;
+    width: 450px;
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
+}
+
+.heroes h1 {
+    font-size: 70px;
+    font-variant: small-caps;
 }
