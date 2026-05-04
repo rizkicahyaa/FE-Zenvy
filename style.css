@@ -1,13 +1,24 @@
 * {
-    font-family: "DM Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 body {
-    /* background-color: #51370a; */
+    background-color: #f4f1e8;
 }
 
 .bg-custom {
     background-color: #1959b8;
+}
+
+.btn-custom {
+    background-color: #985d1c;
+    color: #fff;
+    border: 1px solid #985d1c;
+}
+
+.btn-custom:hover {
+    background: none;
+    border: 1px solid #985d1c;
 }
 
 .heroes img {
