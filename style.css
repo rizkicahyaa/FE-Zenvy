@@ -4,6 +4,7 @@
 
 h1 {
     font-family: "Playfair Display", sans-serif;
+    color: #4c3216;
 }
 
 body {
@@ -35,4 +36,19 @@ body {
 
 .heroes h1 {
     font-size: 70px;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    background-color: #4c321631;
+}
+
+.carousel h1 {
+    color: #fff;
+}
+
+.carousel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
 }
