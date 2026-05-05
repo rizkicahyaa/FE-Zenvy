@@ -1,8 +1,13 @@
-* {
-    font-family: "Oswald", sans-serif;
+/* * {
+    font-family: "Inter", sans-serif;
+} */
+
+h1 {
+    font-family: "Playfair Display", sans-serif;
 }
 
 body {
+    font-family: "Inter", sans-serif;
     background-color: #f4f1e8;
 }
 
@@ -30,5 +35,4 @@ body {
 
 .heroes h1 {
     font-size: 70px;
-    font-variant: small-caps;
 }
