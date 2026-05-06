@@ -2,7 +2,8 @@
     font-family: "Inter", sans-serif;
 } */
 
-h1 {
+h1,
+h4 {
     font-family: "Playfair Display", sans-serif;
     color: #4c3216;
 }
