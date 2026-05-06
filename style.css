@@ -1,7 +1,3 @@
-/* * {
-    font-family: "Inter", sans-serif;
-} */
-
 h1,
 h4 {
     font-family: "Playfair Display", sans-serif;
@@ -65,8 +61,3 @@ body {
 .brewed {
     background-color: #e8e4db;
 }
-
-/* .brewed i,
-h4 {
-    color: #fff;
-} */
